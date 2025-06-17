@@ -1,3 +1,10 @@
+"""
+This file contains both Euclids GCD algorithm and Euclids LCD algorithm.
+The GCD algorithm is a recursive function
+They both have a time complexity of O(log min(m, n))
+The LCD function calls the GCD function
+"""
+
 def euclidGcd(m: int, n: int) -> int:
     # Base case
     if n == 0:

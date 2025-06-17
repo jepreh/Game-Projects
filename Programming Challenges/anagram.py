@@ -1,3 +1,9 @@
+"""
+This algorithm checks whether 2 strings are anagrams of eachother. This has a time complexity of O(n) and a space complexity of O(n)
+Both strings are iterated through the same for loop and the count of each character at i is added to the hash map (freqTable)
+If both words are anagrams they should have the same count per character and the hash map value mod 2 should result in 0. 
+"""
+
 def anagramCheck(word1, word2, n, m):
     checkValid = False
     freqTable = {}
